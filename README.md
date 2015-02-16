@@ -4,8 +4,9 @@
 
 ## Установка
 
+- Выполнить SQL запросы из файла create.sql
 - Скопировать скрипт result.pl в директорию /usr/local/www/apache22/cgi-bin/platon
-- Установить пароль PASSWORD в с крипте result.pl
+- Установить пароль PASSWORD в скрипте result.pl
 - Скопировать строку настройки из plugin_reestr.cfg в файл /usr/local/nodeny/web/plugin_reestr.cfg
 - Исправить скрипт биллинга /usr/local/nodeny/web/paystype.pl аналогично вложенному,
   чтобы корректно отображались платежные категории
